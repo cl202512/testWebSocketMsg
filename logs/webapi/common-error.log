@@ -1,0 +1,95 @@
+2022-06-21 11:48:40,457 ERROR 15384 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15384
+hostname: DESKTOP-LJ55B0T
+
+2022-06-21 12:21:36,608 ERROR 12772 nodejs.ReferenceError: writeData is not defined (uncaughtException throw 1 times on pid:12772)
+    at WebSocket.<anonymous> (C:\CL\temp\web\app\service\wsmsg.js:39:17)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\CL\temp\web\node_modules\ws\lib\websocket.js:1169:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\CL\temp\web\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (C:\CL\temp\web\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (C:\CL\temp\web\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (C:\CL\temp\web\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+
+pid: 12772
+hostname: DESKTOP-LJ55B0T
+
+2022-06-21 12:24:42,052 ERROR 4040 nodejs.ReferenceError: writeData is not defined (uncaughtException throw 1 times on pid:4040)
+    at WebSocket.<anonymous> (C:\CL\temp\web\app\service\wsmsg.js:39:17)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\CL\temp\web\node_modules\ws\lib\websocket.js:1169:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\CL\temp\web\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (C:\CL\temp\web\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (C:\CL\temp\web\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (C:\CL\temp\web\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+
+pid: 4040
+hostname: DESKTOP-LJ55B0T
+
+2022-06-21 12:27:32,299 ERROR 1172 nodejs.TypeError: this.writeData is not a function (uncaughtException throw 1 times on pid:1172)
+    at WebSocket.<anonymous> (C:\CL\temp\web\app\service\wsmsg.js:39:22)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\CL\temp\web\node_modules\ws\lib\websocket.js:1169:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\CL\temp\web\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (C:\CL\temp\web\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (C:\CL\temp\web\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (C:\CL\temp\web\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+
+pid: 1172
+hostname: DESKTOP-LJ55B0T
+
+2022-06-21 12:28:42,381 ERROR 18536 nodejs.TypeError: this.writeData is not a function (uncaughtException throw 1 times on pid:18536)
+    at WebSocket.<anonymous> (C:\CL\temp\web\app\service\wsmsg.js:39:22)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\CL\temp\web\node_modules\ws\lib\websocket.js:1169:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\CL\temp\web\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (C:\CL\temp\web\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (C:\CL\temp\web\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (C:\CL\temp\web\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+
+pid: 18536
+hostname: DESKTOP-LJ55B0T
+
+2022-06-21 12:30:27,509 ERROR 7332 nodejs.TypeError: this.writeData is not a function (uncaughtException throw 1 times on pid:7332)
+    at WebSocket.<anonymous> (C:\CL\temp\web\app\service\wsmsg.js:39:22)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\CL\temp\web\node_modules\ws\lib\websocket.js:1169:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\CL\temp\web\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (C:\CL\temp\web\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (C:\CL\temp\web\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (C:\CL\temp\web\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+
+pid: 7332
+hostname: DESKTOP-LJ55B0T
+
+2022-06-21 12:40:14,643 ERROR 1612 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (node:internal/fs/watchers:204:21)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "C:\\CL\\temp\\web\\app\\service\\data"
+name: "EPERMError"
+pid: 1612
+hostname: DESKTOP-LJ55B0T
+
